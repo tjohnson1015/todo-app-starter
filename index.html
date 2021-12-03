@@ -9,20 +9,33 @@
 </head>
 <body>
   <div class="container my-3">
-    <h1 class='text-center'>Todo App</h1>
+    <h1 class="text-center mb-5">Todo App</h1>
     <form id="todoForm">
       <!-- Form -->
-      
+      <div class="input-group mb-5">
+        <input type="text" class="form-control" placeholder="Todo text" aria-label="Todo text" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
+      </div>
     </form>
     <div class="todo-items">
-      <ul class="incomplete-items">
-        <!-- Incomplete Items -->
-
-      </ul>
-      <ul class="complete-items">
-        <!-- Complete Items -->
-
-      </ul>
+      <div class="card mb-5">
+        <div class="card-header">
+          <h2 class="card-title">Todo</h2>
+        </div>
+        <ul id="incomplete-items" class="list-group list-group-flush">
+          <!-- Incomplete Items -->
+          
+        </ul>
+      </div>
+      <div class="card mb-5">
+        <div class="card-header">
+          <h2 class="card-title">Complete</h2>
+        </div>
+        <ul id="complete-items" class="list-group list-group-flush">
+          <!-- Complete Items -->
+          
+        </ul>
+      </div>
     </div>
   </div>
   

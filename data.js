@@ -26,7 +26,7 @@ const todoItems = [
   },
   {
     id: 6,
-    title: "Learn MongoDB",
+    title: "Learn Express",
     completed: false
   },
 ];
