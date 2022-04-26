@@ -1,6 +1,6 @@
-// You can access the 'data' variable from the 'data.js' file, so long as 'data.js'
+// You can access the 'todoItems' variable from the 'data.js' file, so long as 'data.js'
 // comes before 'script.js' in the HTML document
-console.log(data)
+console.log(todoItems)
 
-// Use the 'data' variable to create the appropriate elements and append them onto
+// Use the 'todoItems' variable to create the appropriate elements and append them onto
 // the page.
